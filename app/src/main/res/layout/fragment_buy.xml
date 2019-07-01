@@ -83,7 +83,7 @@
                         android:layout_marginStart="@dimen/dimen_8dp"
                         android:textColor="@color/battleship_grey"
                         android:textSize="@dimen/text_size_fixed_16sp"
-                        tools:text="ETH" />
+                        tools:text="XSM" />
                 </LinearLayout>
 
                 <ImageView
@@ -142,7 +142,7 @@
                         android:letterSpacing="0.03"
                         android:textColor="@color/text_grey"
                         android:textSize="@dimen/text_size_16sp"
-                        tools:text="ETH" />
+                        tools:text="XSM" />
                 </LinearLayout>
 
                 <TextView
