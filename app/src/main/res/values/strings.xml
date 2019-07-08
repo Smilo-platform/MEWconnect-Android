@@ -168,7 +168,7 @@
     <string name="back_up_wallet_description" comment="'Back up wallet' screen - description">Your Smilo address and private key are stored in a local secure vault on this device.\nBut, what happens if you loose this device? Well… unless you back up your wallet, you will loose all your funds forever.</string>
     <string name="back_up_wallet_now" comment="'Back up wallet' screen - button">Back up now</string>
 
-    <string name="info_title" comment="Info screen - title">Info</string>
+    <string name="info_title" comment="Info screen - title">Info - Smilo (XSM)</string>
     <string name="info_contact" comment="Info screen - button">Contact support</string>
     <string name="info_user_guide" comment="Info screen - button">User guide</string>
     <string name="info_knowledge_base" comment="Info screen - button">Knowledge base</string>
