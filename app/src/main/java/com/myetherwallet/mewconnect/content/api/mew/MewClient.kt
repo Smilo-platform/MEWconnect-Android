@@ -14,10 +14,19 @@ import retrofit2.converter.gson.GsonConverterFactory
 class MewClient {
 
     val retrofit = createRetrofit()
+    val retrofitTest = createRetrofitTest()
 
     private fun createRetrofit(): Retrofit {
         return Retrofit.Builder()
                 .baseUrl(BuildConfig.MEW_API_END_POINT)
+                .client(createClient())
+                .addConverterFactory(GsonConverterFactory.create())
+                .build()
+    }
+
+    private fun createRetrofitTest(): Retrofit {
+        return Retrofit.Builder()
+                .baseUrl(BuildConfig.MEW_API_END_POINT_TEST)
                 .client(createClient())
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()

@@ -49,8 +49,8 @@ class AddressFragment : BaseDiFragment() {
 
         val size = resources.getDimension(R.dimen.address_qr_size).toInt()
 
-        if (preferences.applicationPreferences.getCurrentNetwork() == Network.ROPSTEN) {
-            address_title.setText(R.string.address_title_ropsten)
+        if (preferences.applicationPreferences.getCurrentNetwork() == Network.TESTNET) {
+            address_title.setText(R.string.address_title_testnet)
         } else {
             address_title.setText(R.string.address_title_eth)
         }
