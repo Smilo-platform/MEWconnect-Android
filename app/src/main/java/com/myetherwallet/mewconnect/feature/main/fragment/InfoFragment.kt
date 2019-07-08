@@ -34,11 +34,11 @@ class InfoFragment : BaseDiFragment(), Toolbar.OnMenuItemClickListener {
         info_toolbar.inflateMenu(R.menu.close)
         info_toolbar.setOnMenuItemClickListener(this)
 
-        info_contact.setOnClickListener { LaunchUtils.openMailApp(context, "support@myetherwallet.com") }
+        info_contact.setOnClickListener { LaunchUtils.openMailApp(context, "info@smilo.io") }
         info_user_guide.setOnClickListener { LaunchUtils.openWebSite(context, "https://kb.myetherwallet.com/posts/mewconnect/mewconnect-user-guide/") }
         info_knowledge_base.setOnClickListener { LaunchUtils.openWebSite(context, "https://myetherwallet.github.io/knowledge-base/") }
-        info_privacy_and_terms.setOnClickListener { LaunchUtils.openWebSite(context, "https://www.myetherwallet.com/privacy-policy.html") }
-        info_site.setOnClickListener { LaunchUtils.openWebSite(context, "https://www.myetherwallet.com") }
+        info_privacy_and_terms.setOnClickListener { LaunchUtils.openWebSite(context, "https://smilowallet.io/#/terms-and-conditions") }
+        info_site.setOnClickListener { LaunchUtils.openWebSite(context, "https://smilowallet.io") }
         if (preferences.applicationPreferences.isBackedUp()) {
             info_view_recovery_phrase.setOnClickListener { addFragment(ViewRecoveryPhraseFragment.newInstance()) }
             info_view_recovery_phrase.setText(R.string.info_view_recovery_phrase)

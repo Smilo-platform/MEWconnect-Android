@@ -106,7 +106,7 @@
             android:textStyle="bold"
             app:layout_constraintBaseline_toBaselineOf="@id/wallet_card_value_usd"
             app:layout_constraintStart_toEndOf="@id/wallet_card_currency_usd"
-            tools:text="\@ 731.13/ETH" />
+            tools:text="\@ 731.13/XSM" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/wallet_card_address_container"
@@ -124,7 +124,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:alpha="0.5"
-                android:text="@string/wallet_card_address_title_eth"
+                android:text="@string/wallet_card_address_title_xsm"
                 android:textColor="@color/text_white"
                 android:textSize="@dimen/text_size_fixed_12sp"
                 app:layout_constraintStart_toStartOf="parent"

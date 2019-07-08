@@ -113,18 +113,15 @@ class WalletCardView @JvmOverloads constructor(
             val currency = network.getCurrency(context)
             wallet_card_value_eth.text = value.formatMoney(5)
             wallet_card_currency_eth.text = currency
-            if (network == Network.ROPSTEN) {
+            if (network == Network.TESTNET) {
                 wallet_card_value_usd.text = context.getString(R.string.wallet_card_test_network)
                 wallet_card_stock_price.visibility = View.GONE
                 wallet_card_currency_usd.visibility = View.GONE
                 wallet_card_address_title.setText(R.string.wallet_card_address_title_ropsten)
             } else {
-                wallet_card_value_usd.text = valueUsd.formatUsd()
-                wallet_card_stock_price.text = context.getString(R.string.wallet_card_stock_price,
-                        (stockPrice ?: BigDecimal.ZERO).stripTrailingZeros(),
-                        currency)
-                wallet_card_stock_price.visibility = View.VISIBLE
-                wallet_card_currency_usd.visibility = View.VISIBLE
+                wallet_card_value_eth.text = value.formatMoney(5)
+                wallet_card_stock_price.visibility = View.GONE
+                wallet_card_currency_usd.visibility = View.GONE
                 wallet_card_address_title.setText(R.string.wallet_card_address_title_eth)
             }
         }

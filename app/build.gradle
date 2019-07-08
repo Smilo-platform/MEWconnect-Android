@@ -47,7 +47,8 @@ android {
         vectorDrawables.useSupportLibrary = true
 
         buildConfigField "String", "CONNECT_API_END_POINT", "\"https://connect.mewapi.io\""
-        buildConfigField "String", "MEW_API_END_POINT", "\"https://api.myetherwallet.com/\""
+        buildConfigField "String", "MEW_API_END_POINT", "\"https://api.smilo.network/\""
+        buildConfigField "String", "MEW_API_END_POINT_TEST", "\"https://testnet-wallet.smilo.network/api/\""
         buildConfigField "String", "APICCSWAP_API_END_POINT", "\"https://apiccswap.myetherwallet.com/\""
         buildConfigField "String", "APICCSWAP_API_KEY", "\"" + secretsProperties['apiccswapApiKey'] + "\""
         buildConfigField "String", "APICCSWAP_REFERER", "\"" + secretsProperties['apiccswapReferer'] + "\""

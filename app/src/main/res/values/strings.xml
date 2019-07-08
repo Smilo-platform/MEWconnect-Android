@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" comment="Application name for launcher, title on wallet screen">MEWсonnect</string>
+    <string name="app_name" comment="Application name for launcher, title on wallet screen">SmiloSecureWallet</string>
 
     <string name="password" comment="Hint in password input fields">Password</string>
     <string name="decline" comment="Decline button text (transaction)">Decline</string>
@@ -28,11 +28,11 @@
     <string name="do_you_have_phrase_note" comment="'Do you have phrase' screen - note">i.e. keystore file, private key etc.</string>
 
     <string name="safety_priority_title" comment="'Safety priority' screen - title">Your safety and\nsecurity is our\n#1 priority</string>
-    <string name="safety_priority_text1" comment="'Safety priority' screen - paragraph 1">We don’t support keystore file and private key imports in MEWconnect app, as they are highly unsafe.</string>
-    <string name="safety_priority_text2" comment="'Safety priority' screen - paragraph 2">(Note that keystore file and private key are still available methods of access on MyEtherWallet.com, but are not recommended unless using MEW offline)</string>
-    <string name="safety_priority_text3" comment="'Safety priority' screen - paragraph 3">Because MEWconnect is a ‘Hardware wallet’ without all the hardware, it\'s best to create a new wallet directly in MEWconnect app, same as if you just got a new hardware wallet. That way you can be sure your keys never leave your device.</string>
-    <string name="safety_priority_text4" comment="'Safety priority' screen - paragraph 4">If you want to access funds in one of your existing wallets via MEWconnect, the most secure way to do so would be transferring your ETH and tokens to your new MEWconnect wallet once it’s created.</string>
-    <string name="safety_priority_text5" comment="'Safety priority' screen - paragraph 5">Using your existing private key defeats the purpose of MEWconnect, and reduces your security considerably.</string>
+    <string name="safety_priority_text1" comment="'Safety priority' screen - paragraph 1">We don’t support keystore file and private key imports in SmiloSecureWallet app, as they are highly unsafe.</string>
+    <string name="safety_priority_text2" comment="'Safety priority' screen - paragraph 2">(Note that keystore file and private key are still available methods of access on SmiloWallet.io.com, but are not recommended unless using MEW offline)</string>
+    <string name="safety_priority_text3" comment="'Safety priority' screen - paragraph 3">Because SmiloSecureWallet is a ‘Hardware wallet’ without all the hardware, it\'s best to create a new wallet directly in SmiloSecureWallet app, same as if you just got a new hardware wallet. That way you can be sure your keys never leave your device.</string>
+    <string name="safety_priority_text4" comment="'Safety priority' screen - paragraph 4">If you want to access funds in one of your existing wallets via SmiloSecureWallet, the most secure way to do so would be transferring your XSM and tokens to your new SmiloSecureWallet wallet once it’s created.</string>
+    <string name="safety_priority_text5" comment="'Safety priority' screen - paragraph 5">Using your existing private key defeats the purpose of SmiloSecureWallet, and reduces your security considerably.</string>
 
     <string name="pick_password_title" comment="'Pick password' screen - title">Pick a\npassword</string>
     <string name="pick_password_description" comment="'Pick password' screen - description part 1">So no one else but you can unlock your wallet.</string>
@@ -54,71 +54,89 @@
     <string name="prepare_write_description" comment="'Prepare to write down' screen - description">If your device gets lost or stolen, you can restore your wallet using your recovery phrase. Get pen and paper before you start.</string>
     <string name="prepare_write_confirm" comment="'Prepare to write down' screen - button">Start</string>
 
-    <string name="intro_by_mew_label" comment="Intro screen - company">by MyEtherWallet</string>
+    <string name="intro_by_mew_label" comment="Intro screen - company">by SmiloWallet.io</string>
     <string name="intro_verify" comment="Intro screen - button">Verify</string>
     <string name="intro_restore_wallet" comment="Intro screen - button">Restore wallet</string>
     <string name="intro_setup" comment="Intro screen - button">CREATE NEW WALLET</string>
-    <string name="intro_page_footer1" comment="Intro screen - description">Finally, a ‘hardware wallet’\nwithout all the hardware.\nOfficially by MyEtherWallet.</string>
-    <string name="intro_page_footer2" comment="Intro screen - description"><b>Secure</b> your every\nMyEtherWallet\ntransaction with two-\nfactor verification.</string>
+    <string name="intro_page_footer1" comment="Intro screen - description">Finally, a ‘hardware wallet’\nwithout all the hardware.\nOfficially by SmiloWallet.io.</string>
+    <string name="intro_page_footer2" comment="Intro screen - description"><b>Secure</b> your every\nSmiloWallet.io\ntransaction with two-\nfactor verification.</string>
     <string name="intro_page_footer3" comment="Intro screen - description"><b>Store</b> your private keys\nsafely in a local isolated\nsecure vault on your\ndevice.</string>
     <string name="intro_page_footer4" comment="Intro screen - description"><b>Protect</b> yourself from\nphishers and malware.\nNo one can obtain\nyour private key.</string>
-    <string name="intro_page_footer5" comment="Intro screen - description">No data collection:\nMyEtherWallet can\'t\ncollect your personal data\neven if we wanted to.</string>
-    <string name="intro_page_footer6" comment="Intro screen - description">No centralized servers, no\ndatabases.\nMEWconnect and\nMyEtherWallet talk via\nP2P communication.</string>
+    <string name="intro_page_footer5" comment="Intro screen - description">No data collection:\nSmiloWallet.io can\'t\ncollect your personal data\neven if we wanted to.</string>
+    <string name="intro_page_footer6" comment="Intro screen - description">No centralized servers, no\ndatabases.\nSmiloSecureWallet and\nSmiloWallet.io talk via\nP2P communication.</string>
     <string name="intro_page_footer7" comment="Intro screen - description">Transparent, free and\nopen source. Audited by\nthe community.</string>
 
-    <string name="generating_start_animation_text1" comment="'Generating animation' screen - text"><![CDATA[Generating your<br/><font color="#064dd6">Ethereum address</font>]]></string>
+    <string name="generating_start_animation_text1" comment="'Generating animation' screen - text"><![CDATA[Generating your<br/><font color="#064dd6">Smilo address</font>]]></string>
     <string name="generating_start_animation_text2" comment="'Generating animation' screen - text"><![CDATA[Encrypting your<br/><font color="#064dd6">private key</font> using<br/>your password]]></string>
     <string name="generating_start_animation_text3" comment="'Generating animation' screen - text"><![CDATA[Saving your<br/>encrypted keys to a<br/><font color="#064dd6">local secure vault</font><br/>on this device]]></string>
     <string name="generating_start_animation_text4" comment="'Generating animation' screen - text"><![CDATA[<font color="#064dd6">All done!</font>]]></string>
-    <string name="generating_start_using" comment="'Generating animation' screen - button">Start using MEWconnect</string>
+    <string name="generating_start_using" comment="'Generating animation' screen - button">Start using SmiloSecureWallet</string>
 
-    <string name="wallet_toolbar_buy_ether" comment="Wallet card - toolbar button hint">Buy ether</string>
+    <string name="wallet_toolbar_buy_ether" comment="Wallet card - toolbar button hint">Buy XSM</string>
     <string name="wallet_header_balances_title" comment="Wallet card - tokens list header">Tokens</string>
     <string name="wallet_network_title" comment="Network selection dialog title">Select network</string>
-    <string name="wallet_network_main_full" comment="Network selection dialog item">Main Ethereum Network</string>
+    <string name="wallet_network_main_full" comment="Network selection dialog item">Main Smilo Network</string>
+
+    <string name="wallet_network_smilo_full" comment="Network selection dialog item">Smilo Mainnet</string>
+    <string name="wallet_network_smilotestnet_full" comment="Network selection dialog item">Smilo Testnet</string>
+
+
     <string name="wallet_network_ropsten_full" comment="Network selection dialog item">Ropsten Test Network</string>
     <string name="wallet_network_main_short" comment="Wallet screen toolbar - network">Mainnet</string>
     <string name="wallet_network_ropsten_short" comment="Wallet screen - network">Ropsten</string>
-    <string name="wallet_network_main_currency" comment="Wallet card - balance currency">ETH</string>
-    <string name="wallet_network_ropsten_currency" comment="Wallet card - balance currency">ROPSTEN ETH</string>
+
+    <string name="wallet_network_smilo_short" comment="Wallet screen - network">Smilo Mainnet</string>
+    <string name="wallet_network_smilotestnet_short" comment="Wallet screen - network">Smilo Testnet</string>
+
+
+
+    <string name="wallet_network_main_currency" comment="Wallet card - balance currency">XSM</string>
+    <string name="wallet_network_smilo_currency" comment="Wallet card - balance currency">XSM</string>
+
+    <string name="wallet_network_ropsten_currency" comment="Wallet card - balance currency">ROPSTEN XSM</string>
+    <string name="wallet_network_smilotestnet_currency" comment="Wallet card - balance currency">TESTNET XSM</string>
+
     <string name="wallet_scan_to_connect" comment="Wallet screen - button">Scan to connect</string>
     <string name="wallet_offline" comment="Wallet card - status badge">No internet connection</string>
-    <string name="wallet_status_connected" comment="Wallet screen - status badge">Connected to MyEtherWallet</string>
+    <string name="wallet_status_connected" comment="Wallet screen - status badge">Connected to SmiloWallet.io</string>
     <string name="wallet_status_disconnect" comment="Wallet screen - status badge button">Disconnect</string>
     <string name="wallet_header_search_hint" comment="Wallet screen - search hint">Search %d tokens</string>
     <string name="wallet_empty" comment="Wallet screen - no tokens">This address currently\ndoesn\'t own any tokens</string>
     <string name="wallet_backed_up_title" comment="'Wallet backed up' screen - title">Your wallet is\nnow backed up</string>
     <string name="wallet_backed_up_description" comment="'Wallet backed up' screen - description">Protect your recovery phrase like a million dollars your account might once be worth. In a de-centralized world your safety and security is your own responsibility.  Stay safe out there!</string>
 
-    <string name="wallet_card_currency_eth" comment="Wallet card - label">ETH</string>
+    <string name="wallet_card_currency_eth" comment="Wallet card - label">XSM</string>
+    <string name="wallet_card_currency_xsm" comment="Wallet card - label">XSM</string>
     <string name="wallet_card_currency_usd" comment="Wallet card - label">USD</string>
-    <string name="wallet_card_address_title_eth" comment="Wallet card - label for Main network">Your public Ethereum address</string>
-    <string name="wallet_card_address_title_ropsten" comment="Wallet card - label for Ropsten network">Your public Ropsten testnet address</string>
+    <string name="wallet_card_address_title_eth" comment="Wallet card - label for Main network">Your public Smilo address</string>
+    <string name="wallet_card_address_title_xsm" comment="Wallet card - label for Main network">Your public Smilo address</string>
+
+    <string name="wallet_card_address_title_ropsten" comment="Wallet card - label for Ropsten network">Your public testnet address</string>
     <string name="wallet_card_stock_price" comment="Wallet card - price format" translatable="false">\@ %.2f/%s</string>
     <string name="wallet_card_test_network" comment="Wallet card - note for Ropsten network">Test network</string>
     <string name="wallet_card_backup_title" comment="Wallet card - warning">Action required: not backed up</string>
     <string name="wallet_card_backup_description" comment="Wallet card - warning description">If you lose this device you will lose your account and all your funds forever.</string>
     <string name="wallet_card_backed_up" comment="Wallet card - backup status">Backed up</string>
 
-    <string name="scan_connected" comment="Scan screen - connected screen title">Connected to MyEtherWallet</string>
+    <string name="scan_connected" comment="Scan screen - connected screen title">Connected to SmiloWallet.io</string>
     <string name="scan_connected2" comment="Scan screen - connected screen note">Via encrypted peer-to-peer connection</string>
     <string name="scan_toolbar_title" comment="Scan screen - title">Scan QR code</string>
-    <string name="scan_toolbar_subtitle" comment="Scan screen - subtitle">To connect to MyEtherWallet</string>
-    <string name="scan_camera_permission_rationale_settings" comment="Scan screen - camera permission rationale">Please enable camera access for\nMEWconnect in Settings</string>
-    <string name="scan_camera_permission_rationale_dialog" comment="Scan screen - camera permission rationale in dialog">Please enable camera access for\nMEWconnect</string>
+    <string name="scan_toolbar_subtitle" comment="Scan screen - subtitle">To connect to SmiloWallet.io</string>
+    <string name="scan_camera_permission_rationale_settings" comment="Scan screen - camera permission rationale">Please enable camera access for\nSmiloSecureWallet in Settings</string>
+    <string name="scan_camera_permission_rationale_dialog" comment="Scan screen - camera permission rationale in dialog">Please enable camera access for\nSmiloSecureWallet</string>
     <string name="scan_low_storage_error" comment="Scan screen - error">Not enough free space</string>
     <string name="scan_camera_source_error" comment="Scan screen - error">Unable to start camera</string>
     <string name="scan_error" comment="Scan screen - scan error">Something went wrong</string>
     <string name="scan_error_try_again" comment="Scan screen - button">Try again</string>
     <string name="scan_offline" comment="Scan screen - offline screen">No internet connection</string>
     <string name="scan_error_contact" comment="Scan screen - button">Contact support</string>
-    <string name="scan_connecting" comment="Scan screen - connecting screen title">Creating a local connection\nwith MyEtherWallet</string>
-    <string name="scan_manual_1" comment="Scan screen - paragraph 1"><![CDATA[Go to <b>MyEtherWallet.com</b> on your<br/>computer and choose <b>Access My Wallet</b><br/>option.]]></string>
-    <string name="scan_manual_2" comment="Scan screen - paragraph 2"><![CDATA[Select <b>MEWconnect</b> option on the screen<br/>that follows.]]></string>
+    <string name="scan_connecting" comment="Scan screen - connecting screen title">Creating a local connection\nwith SmiloWallet.io</string>
+    <string name="scan_manual_1" comment="Scan screen - paragraph 1"><![CDATA[Go to <b>SmiloWallet.io</b> on your<br/>computer and choose <b>Access My Wallet</b><br/>option.]]></string>
+    <string name="scan_manual_2" comment="Scan screen - paragraph 2"><![CDATA[Select <b>SmiloSecureWallet</b> option on the screen<br/>that follows.]]></string>
     <string name="scan_manual_3" comment="Scan screen - paragraph 3"><![CDATA[Scan the QR code.]]></string>
 
     <string name="transaction_confirmed_title" comment="'Transaction confirmed' screen - title">Continue in your browser</string>
-    <string name="transaction_confirmed_description" comment="'Transaction confirmed' screen - description">Transaction is generated and signed. Please continue in MyEtherWallet in your browser in order to send it.</string>
+    <string name="transaction_confirmed_description" comment="'Transaction confirmed' screen - description">Transaction is generated and signed. Please continue in SmiloWallet.io in your browser in order to send it.</string>
 
     <string name="transaction_declined_title" comment="'Transaction declined' screen - title">Transaction declined</string>
     <string name="transaction_declined_description" comment="'Transaction declined' screen - description"><![CDATA[You declined the transaction and it was cancelled. If you have security concerns, please contact <a href="mail:support@myetherwallet.com">MEW Support</a>]]></string>
@@ -128,7 +146,7 @@
     <string name="confirm_transaction_unknown_token" comment="'Confirm transaction' screen - placeholder">Unknown Token</string>
     <string name="confirm_transaction_amount_title" comment="'Confirm transaction' screen - amount field title">Check the amount:</string>
     <string name="confirm_transaction_network_title" comment="'Confirm transaction' screen - network field title">Check network:</string>
-    <string name="confirm_transaction_description" comment="'Confirm transaction' screen - description">If your computer is compromised, attackers might replace ‘Send to’ address with their own, before sending your transaction. That’s why it’s important to check it in MEWconnect.</string>
+    <string name="confirm_transaction_description" comment="'Confirm transaction' screen - description">If your computer is compromised, attackers might replace ‘Send to’ address with their own, before sending your transaction. That’s why it’s important to check it in SmiloSecureWallet.</string>
 
     <string name="auth_forgot_password" comment="Authentication screen - button">Forgot password?</string>
     <string name="auth_wrong_password_error" comment="Authentication screen - error">Wrong password</string>
@@ -147,18 +165,18 @@
     <string name="view_recovery_phrase_title" comment="'View recovery phrase' screen - title">Your recovery phrase</string>
 
     <string name="back_up_wallet_title" comment="'Back up wallet' screen - title">Back up your  wallet</string>
-    <string name="back_up_wallet_description" comment="'Back up wallet' screen - description">Your Ethereum address and private key are stored in a local secure vault on this device.\nBut, what happens if you loose this device? Well… unless you back up your wallet, you will loose all your funds forever.</string>
+    <string name="back_up_wallet_description" comment="'Back up wallet' screen - description">Your Smilo address and private key are stored in a local secure vault on this device.\nBut, what happens if you loose this device? Well… unless you back up your wallet, you will loose all your funds forever.</string>
     <string name="back_up_wallet_now" comment="'Back up wallet' screen - button">Back up now</string>
 
     <string name="info_title" comment="Info screen - title">Info</string>
     <string name="info_contact" comment="Info screen - button">Contact support</string>
     <string name="info_user_guide" comment="Info screen - button">User guide</string>
     <string name="info_knowledge_base" comment="Info screen - button">Knowledge base</string>
-    <string name="info_site" comment="Info screen - button">MyEtherWallet.com</string>
+    <string name="info_site" comment="Info screen - button">SmiloWallet.io</string>
     <string name="info_view_recovery_phrase" comment="Info screen - button">View my recovery phrase</string>
     <string name="info_back_up" comment="Info screen - button">Back up my wallet</string>
     <string name="info_privacy_and_terms" comment="Info screen - button">Privacy and terms</string>
-    <string name="info_copyright" comment="Info screen - copyright">Copyright 2018 MyEtherWallet Inc.</string>
+    <string name="info_copyright" comment="Info screen - copyright">Copyright 2019 Smilo Foundation, Copyright 2018 MyEtherWallet Inc.</string>
     <string name="info_version" comment="Info screen - version">Version %s (%d)</string>
 
     <string name="reset_wallet_title" comment="'Reset wallet' screen - dialog title">⚠ Warning: you can loose your account and funds forever</string>
@@ -168,15 +186,15 @@
     <string name="backup_warning_message" comment="'Backup warning' screen - dialog text">If you don\'t back up, you can loose all your funds forever once you uninstall the app, or if your device gets lost or stolen.</string>
     <string name="backup_warning_button" comment="'Backup warning' screen - dialog button">Backup now</string>
 
-    <string name="buy_title" comment="'Buy title' screen - title">Buy Ether</string>
+    <string name="buy_title" comment="'Buy title' screen - title">Buy XSM</string>
     <string name="buy_button" comment="'Buy title' screen - button">Buy with credit card</string>
     <string name="buy_minimum_warning" comment="'Buy title' screen - note">$50 minimum purchase</string>
-    <string name="buy_loading_error" comment="'Buy title' screen - error">Buy Ether failed</string>
+    <string name="buy_loading_error" comment="'Buy title' screen - error">Buy XSM failed</string>
     <string name="buy_simplex_description_full" comment="'Buy title' screen - description for large screen"><![CDATA[Purchase will be done via <u>Simplex</u><br/>Approximate fee is already<br/>included in this rate]]></string>
     <string name="buy_simplex_description_short" comment="'Buy title' screen - description for small screen"><![CDATA[Appox. <u>Simplex</u> fee included in rate]]></string>
 
     <string name="buy_webview_upload_error" comment="'Buy browser' screen - error">Unable to open file chooser</string>
-    <string name="buy_webview_rationale" comment="'Buy browser' screen - files permission rationale">Please enable files access for MEWconnect</string>
+    <string name="buy_webview_rationale" comment="'Buy browser' screen - files permission rationale">Please enable files access for SmiloSecureWallet</string>
 
     <string name="history_title" comment="'Purchases history' screen - title">Purchase history</string>
     <string name="history_total_amount_title" comment="'Purchases history' screen - label">Total amount:</string>
@@ -191,11 +209,12 @@
     <string name="sign_message_confirm" comment="'Sign message' screen - button">Sign</string>
 
     <string name="message_signed_title" comment="'Message signed' screen - title">Continue in your browser</string>
-    <string name="message_signed_description" comment="'Message signed' screen - description">The message is signed. Please continue in MyEtherWallet in your browser.</string>
+    <string name="message_signed_description" comment="'Message signed' screen - description">The message is signed. Please continue in SmiloWallet.io in your browser.</string>
 
-    <string name="address_title_eth" comment="Address screen - title">Your public\nEthereum address</string>
+    <string name="address_title_eth" comment="Address screen - title">Your public\ address</string>
     <string name="address_title_ropsten" comment="Address screen - title">Your public Ropsten\ntestnet address</string>
-    <string name="address_description" comment="Address screen - description">Share your public address to receive Ether and ERC-20 tokens</string>
+    <string name="address_title_testnet" comment="Address screen - title">Your public \ntestnet address</string>
+    <string name="address_description" comment="Address screen - description">Share your public address to receive XSM and SRC-20 tokens</string>
     <string name="address_share" comment="Address screen - button">Share</string>
     <string name="address_share_title" comment="Address screen - chooser title">Choose application</string>
     <string name="address_copy" comment="Address screen - button">Copy</string>
@@ -229,10 +248,12 @@
     <string name="transaction_network_etho" comment="Networks names list item">Ether1</string>
     <string name="transaction_network_music" comment="Networks names list item">Music Coin</string>
     <string name="transaction_network_pirl" comment="Networks names list item">Pirl</string>
+    <string name="transaction_network_xsm" comment="Networks names list item">Smilo</string>
+    <string name="transaction_network_xsmt" comment="Networks names list item">Smilo Testnet</string>
 
-    <string name="service_notification_channel_name" comment="Service notification - channel name (system settings)">MEWconnect connection service</string>
+    <string name="service_notification_channel_name" comment="Service notification - channel name (system settings)">SmiloSecureWallet connection service</string>
     <string name="service_notification_channel_description" comment="Service notification - channel description (system settings)">Shown while application is connected</string>
-    <string name="service_notification_title" comment="Service notification - title">MEWconnect</string>
+    <string name="service_notification_title" comment="Service notification - title">SmiloSecureWallet</string>
     <string name="service_notification_text" comment="Service notification - text">Connected</string>
     <string name="service_notification_disconnect" comment="Service notification - button">Disconnect</string>
 </resources>

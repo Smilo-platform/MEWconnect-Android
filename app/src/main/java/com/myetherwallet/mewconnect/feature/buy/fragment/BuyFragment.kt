@@ -29,7 +29,7 @@ import javax.inject.Inject
  */
 
 private const val CURRENCY_USD = "USD"
-private const val CURRENCY_ETH = "ETH"
+private const val CURRENCY_ETH = "XSM"
 private const val ETH_DECIMALS = 8
 private val LIMIT_MIN = BigDecimal(50)
 private val LIMIT_MAX = BigDecimal(20000)

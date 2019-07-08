@@ -66,7 +66,7 @@
             android:maxLines="1"
             android:textColor="@color/text_white"
             android:textSize="@dimen/text_size_fixed_14sp"
-            tools:text="0.5679 ETH" />
+            tools:text="0.5679 XSM" />
 
         <TextView
             android:id="@+id/wallet_toolbar_network"
@@ -85,30 +85,30 @@
             android:paddingEnd="@dimen/dimen_8dp"
             android:textColor="@color/text_grey"
             android:textSize="@dimen/text_size_fixed_12sp"
-            tools:text="Ropsten" />
+            tools:text="Testnet" />
     </FrameLayout>
 
-    <FrameLayout
-        android:id="@+id/wallet_toolbar_buy_container"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    <!--<FrameLayout-->
+        <!--android:id="@+id/wallet_toolbar_buy_container"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="0dp"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent">-->
 
-        <TextView
-            android:id="@+id/wallet_toolbar_buy"
-            android:layout_width="@dimen/dimen_84dp"
-            android:layout_height="@dimen/dimen_20dp"
-            android:layout_gravity="center_vertical"
-            android:layout_marginEnd="@dimen/dimen_16dp"
-            android:fontFamily="sans-serif-medium"
-            android:gravity="center"
-            android:letterSpacing="0.09"
-            android:text="@string/wallet_toolbar_buy_ether"
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="@dimen/text_size_fixed_11sp"
-            tools:background="#33ff0000" />
-    </FrameLayout>
+        <!--<TextView-->
+            <!--android:id="@+id/wallet_toolbar_buy"-->
+            <!--android:layout_width="@dimen/dimen_84dp"-->
+            <!--android:layout_height="@dimen/dimen_20dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginEnd="@dimen/dimen_16dp"-->
+            <!--android:fontFamily="sans-serif-medium"-->
+            <!--android:gravity="center"-->
+            <!--android:letterSpacing="0.09"-->
+            <!--android:text="@string/wallet_toolbar_buy_ether"-->
+            <!--android:textAllCaps="true"-->
+            <!--android:textColor="@color/colorAccent"-->
+            <!--android:textSize="@dimen/text_size_fixed_11sp"-->
+            <!--tools:background="#33ff0000" />-->
+    <!--</FrameLayout>-->
 </androidx.constraintlayout.widget.ConstraintLayout>
