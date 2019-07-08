@@ -14,6 +14,7 @@ import com.myetherwallet.mewconnect.core.utils.LaunchUtils
 import com.myetherwallet.mewconnect.feature.backup.fragment.BackUpWalletFragment
 import com.myetherwallet.mewconnect.feature.main.dialog.ResetWalletDialog
 import kotlinx.android.synthetic.main.fragment_info.*
+import kotlinx.android.synthetic.main.view_wallet_card.view.*
 import javax.inject.Inject
 
 /**
@@ -35,8 +36,13 @@ class InfoFragment : BaseDiFragment(), Toolbar.OnMenuItemClickListener {
         info_toolbar.setOnMenuItemClickListener(this)
 
         info_contact.setOnClickListener { LaunchUtils.openMailApp(context, "info@smilo.io") }
-        info_user_guide.setOnClickListener { LaunchUtils.openWebSite(context, "https://kb.myetherwallet.com/posts/mewconnect/mewconnect-user-guide/") }
-        info_knowledge_base.setOnClickListener { LaunchUtils.openWebSite(context, "https://myetherwallet.github.io/knowledge-base/") }
+//        info_user_guide.setOnClickListener { LaunchUtils.openWebSite(context, "https://kb.smilowallet.io/posts/mewconnect/mewconnect-user-guide/") }
+//        info_knowledge_base.setOnClickListener { LaunchUtils.openWebSite(context, "https://Smilo-platform.github.io/knowledge-base/") }
+        //TODO: revert when links are ok
+
+        info_user_guide.visibility = View.GONE
+        info_knowledge_base.visibility = View.GONE
+
         info_privacy_and_terms.setOnClickListener { LaunchUtils.openWebSite(context, "https://smilowallet.io/#/terms-and-conditions") }
         info_site.setOnClickListener { LaunchUtils.openWebSite(context, "https://smilowallet.io") }
         if (preferences.applicationPreferences.isBackedUp()) {
